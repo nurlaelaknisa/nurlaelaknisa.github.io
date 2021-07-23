@@ -1,0 +1,260 @@
+html, body {   
+    margin: 0;
+    padding-right: 5%;
+    padding-left: 5%;
+    box-sizing: border-box;
+ }
+ #body {
+    font-family: 'Poppins';
+    background-image: linear-gradient(to left, rgb(206, 129, 75) , burlywood);
+}
+#judul {
+    font-family: 'Montserrat'; font-size: 40px;
+}
+#headerku{
+    height: 15vh;
+    animation: 1s fadein 0.5s forwards;
+    opacity: 0;
+	z-index: 2;
+}
+#navigasiku {
+    display: flex;
+    justify-content: space-around;
+    width:14 vw;
+    height: 100%;
+    align-items:center;
+    padding-top: 3%;
+    flex-wrap: wrap;
+}
+#portofolio {
+    opacity: 0;
+    margin-top: 100px;
+    animation: 1s slidefade 1s forwards;
+}
+
+.judulportofolio {
+    background-color: rgb(80, 76, 76);
+    text-align: center;
+}
+.judulstory {
+    background-color: rgb(80, 76, 76);
+    text-align: center;
+}
+.judulprofile {
+    background-color: rgb(80, 76, 76);
+    text-align: center;
+}
+
+.judulcontact {
+    background-color: rgb(80, 76, 76);
+    text-align: center;
+}
+
+.fotoutama {
+    padding-left: 30px;
+    padding-top: 5%;
+    padding-right: 30px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.fotoprofile {
+    width: 60%;
+    padding-left: 10%;
+}
+.imageutama{
+   width: 50%;
+}
+.perkenalan {
+    padding-left: 70%;
+}
+
+#bgfoto {
+    width: 100px;
+    height: 50%;
+    display:flex;
+}
+
+#isicontact{
+    padding-left: 10px;
+    padding-right: 40px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.linkprofile{
+    color: black;
+    font-family: 'Montserrat'; font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.linkporto{
+    color: black;
+    font-family: 'Montserrat'; font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.linkstory{
+    color: black;
+    font-family: 'Montserrat'; font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.linkgalery{
+        color: black;
+        font-family: 'Montserrat'; font-size: 20px;
+        text-decoration: none;    
+        font-weight: bold;
+    }
+.linkcontact{
+    color: black;
+    font-family: 'Montserrat'; font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.linkporto:hover{
+    color: brown;
+    border: 0.4vw solid white;
+    box-shadow:0.2vw 0.2vw white;
+}
+.linkprofile:hover{
+    color: brown;
+    border: 0.4vw solid white;
+    box-shadow:0.2vw 0.2vw white;
+}
+.linkstory:hover{
+    color: brown;
+    border: 0.4vw solid white;
+    box-shadow:0.2vw 0.2vw white;
+    
+}
+
+.linkgalery:hover{
+    color:brown;
+    border: 0.4vw solid white;
+    box-shadow:0.2vw 0.2vw white;
+}
+
+.linkcontact:hover{
+    color:brown;
+    border: 0.4vw solid white;
+    box-shadow:0.2vw 0.2vw white;
+}
+li{
+    text-decoration: none;
+}
+#profile{
+    height: 40vw;
+    opacity: 0;
+    margin-top: 100px;
+    animation: 1s slidefade 1s forwards;
+}
+#contact {
+    padding-bottom: 5%;
+    opacity: 0;
+    margin-top: 100px;
+    animation: 1s slidefade 1s forwards;
+}
+.styleutama {
+    display: flex; 
+    width: 50%; 
+    float: left;
+}
+.stylestory {
+    display: flex; 
+    width: 50%; 
+    float: left;
+}
+li {
+    list-style-type: none;
+}
+#story {
+    height: 40vw;   
+    opacity: 0;
+    margin-top: 100px;
+    animation: 1s slidefade 1s forwards;
+}
+
+#galery {
+    opacity: 0;
+    margin-top: 100px;
+    animation: 1s slidefade 1s forwards;
+}
+.fotostory{
+    padding-left: 10%;
+    width: 60%;
+}
+.stylegalery {
+ padding-left: 5%;
+}
+.foto1 {
+    width: 30%; 
+    margin: 1%;
+}
+.foto2 {
+    width: 30%; 
+    margin: 1%;
+}
+.foto3 {
+    width: 30%; 
+    margin: 1%;
+}
+.foto4 {
+    width: 30%; 
+    margin: 1%;
+}
+.foto5 {
+    width: 30%; 
+    margin: 1%;
+}
+.foto6 {
+    width: 30%; 
+    margin: 1%;
+}
+.youtube {
+    width: 12%;
+    margin: 1%;
+}
+.instagram {
+    width: 12%;
+    margin: 1%;
+}
+.github {
+    width: 12%;
+    margin: 1%;
+}
+.judulgalery {
+    background-color: rgb(80, 76, 76);
+    text-align: center;
+       
+}
+.nama {
+    font-size: 22px;
+    text-align: center;
+    font-style: italic;
+    padding-top: 2%;
+    margin: 0%;
+
+}
+.status {
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+    border: 0%;
+    margin: 0%;
+}
+@keyframes fade {
+    100%
+    {
+        opacity: 1;
+    }
+}
+@keyframes slidefade {
+    100% {
+        opacity: 1;
+        margin: 0;
+    }
+}
